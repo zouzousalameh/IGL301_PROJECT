@@ -5,6 +5,7 @@
         <title>CONTACT US</title>
         <meta charset="UTF-8">
         <link href="style.css" rel="stylesheet"/>
+    <script src="jquery-2.1.3.js"></script>
     </head>
     <body>
         <div>
@@ -28,11 +29,17 @@
                     
                     <form class="formstyle">
                         <h1>CONTACT US</h1>
-                <input type="text" name="field1" placeholder="Your Name"/>
+                <input type="text"  id="myName" placeholder="Your Name"/>
                 <input type="email" name="field2" placeholder="Email Address"/>
                 <textarea name="field3" placeholder="Type your Message"></textarea>
-                <input type="submit" value="Send"/>
+                <input type="submit" value="Send" onclick="getName()"/>
             </form>
+                    <script>
+          function getName(){
+               var frm=document.getElementById("myName");
+        alert(" Thank you Mrs."+" "+frm.value +" " +"For Contacting Us");
+          }
+      </script>
                     <pre>
                         Or Follow US On:
                     </pre>

@@ -55,7 +55,7 @@ td{
 }
 
 nav>a{
-    color: blue;
+    color:blue;
     
     
     padding:0px 40px;
@@ -68,16 +68,14 @@ nav>a{
     
         
 }
-nav>a:hover{
-    
-    color:grey;
-}
 
  nav{
     margin-top: 20px;
     text-align: right;
 }
-
+nav>a:hover{
+    color: grey;
+}
 
 nav>pre{
     font-weight: bolder;
